@@ -1,0 +1,14 @@
+---
+interface Props { preview?: boolean; centerTourPath?: string; home?: boolean; id?: string; compact?: boolean; }
+const {preview=false,centerTourPath='/book-a-tour/',home=false,id='cta-heading',compact=false}=Astro.props;
+const inquiry='https://app.tryplayground.com/form/MpmqWSuS7XbbNhll8U9o/HJnwK3ewsarKLlkjCzkX';
+const actions=[
+ {label:'Schedule a Tour',description:'Pick your center and a time.',path:centerTourPath,preview:'#tour-preview',home:'https://growingkids.com/book-a-tour/',primary:true},
+ {label:'Request Information',description:"Tell us what you need and how you’d like us to reach you.",path:'/request-information/',preview:'#information-preview',home:inquiry,primary:false},
+ {label:'Pre-Register',description:"Reserve your child’s spot or tell us when you’ll need care.",path:'/pre-register/',preview:'#preregister-preview',home:'#pre-register',primary:false}
+];
+// Fourth Book a Call action is reserved and intentionally not rendered.
+---
+<section class:list={['cta-section',{'cta-compact':compact}]} aria-labelledby={id}><div class="wrap">
+<h2 id={id}>What works for you?</h2><div class="cta-options">{actions.map(a=><div class="cta-option"><a class:list={['button',a.primary?'primary':'secondary']} href={home?a.home:preview?a.preview:a.path}>{a.label}</a><p>{a.description}</p></div>)}</div>
+</div></section>

@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Ireland Road, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/ireland-road/",
+    "tour_path": "/book-a-tour/ireland-road-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/fBsUooLzcd9wUXDDMlZL?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/ZqgLyGwEoAVq4lUC9Str",
+    "observed_phone_links": [
+      "(574) 299-4979"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 17850 Ireland Rd South Bend, IN 46614"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/ireland-road/",
+    "provisional_address": "17850 Ireland Rd South Bend, IN 46614",
+    "provisional_phone": "(574) 299-4979",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "State Road 23, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/state-road-23/",
+    "tour_path": "/book-a-tour/state-road-23-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/2YuNAqckRJMDxIRjaqbc?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/mhYMhGOTJA0mLjGLdiSW",
+    "observed_phone_links": [
+      "(574) 273-9048"
+    ],
+    "observed_hours": [
+      "Hours: 6:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 17475 State Road 23 South Bend, IN 46635"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/state-road-23/",
+    "provisional_address": "17475 State Road 23 South Bend, IN 46635",
+    "provisional_phone": "(574) 273-9048",
+    "provisional_hours": "6:30 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Bendix Drive, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/north-bendix-dr/",
+    "tour_path": "/book-a-tour/bendix-drive-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/Q6eA4pEP64Bqy3CaXHuz?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/HjCO3zOFRZi9aUNB836d",
+    "observed_phone_links": [
+      "(574) 288-3992"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 2601 N. Bendix Drive, South Bend, IN 46628"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/north-bendix-dr/",
+    "provisional_address": "2601 N. Bendix Drive, South Bend, IN 46628",
+    "provisional_phone": "(574) 288-3992",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Bristol Street, Elkhart",
+    "city": "Elkhart",
+    "location_path": "/locations/elkhart/",
+    "tour_path": "/book-a-tour/bristol-street-in-elkhart/",
+    "market_path": "/daycare/elkhart/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/Jmb1ytaCGCCX3l0cyUas?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/Fm5poWpz2hyjQbV58I5f",
+    "observed_phone_links": [
+      "(574) 266-1800"
+    ],
+    "observed_hours": [
+      "Hours: 4:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 825 W Bristol Street, Elkhart, IN 46514"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/elkhart/",
+    "provisional_address": "825 W Bristol Street, Elkhart, IN 46514",
+    "provisional_phone": "(574) 266-1800",
+    "provisional_hours": "4:30 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Elkhart Road, Goshen",
+    "city": "Goshen",
+    "location_path": "/locations/goshen-center/",
+    "tour_path": "/book-a-tour/elkhart-road-in-goshen/",
+    "market_path": "/daycare/goshen/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/kM6pDghAZgZRq2hTVgeO?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/4i8hjsDRJUoBoKpJMWYh",
+    "observed_phone_links": [
+      "(574) 875-8005"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 3212 Elkhart Road, Goshen, IN 46526"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/goshen-center/",
+    "provisional_address": "3212 Elkhart Road, Goshen, IN 46526",
+    "provisional_phone": "(574) 875-8005",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Campbell Street, Valparaiso",
+    "city": "Valparaiso",
+    "location_path": "/locations/valparaiso/",
+    "tour_path": "/book-a-tour/campbell-street-in-valparaiso/",
+    "market_path": "/daycare/valparaiso/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/1BLFLkvYvsYgKCYDens1?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/NsfVztIObbcuOaQIDFvp",
+    "observed_phone_links": [
+      "(219) 462-7777"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 3400 Campbell Street, Valparaiso, IN 46383"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/valparaiso/",
+    "provisional_address": "3400 Campbell Street, Valparaiso, IN 46383",
+    "provisional_phone": "(219) 462-7777",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Eastport Centre, Valparaiso",
+    "city": "Valparaiso",
+    "location_path": "/locations/eastport-in-valparaiso/",
+    "tour_path": "/book-a-tour/eastport-centre-in-valparaiso/",
+    "market_path": "/daycare/valparaiso/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/nBcOOtybcxwygfXLwiSR?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/RmLN1xfTBQEL20tQm9GX",
+    "observed_phone_links": [
+      "(219) 477-5858"
+    ],
+    "observed_hours": [
+      "Hours: 6:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Little U Academy, 751 Eastport Center Dr, Valparaiso, IN 46383"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/eastport-in-valparaiso/",
+    "provisional_address": "751 Eastport Center Dr, Valparaiso, IN 46383",
+    "provisional_phone": "(219) 477-5858",
+    "provisional_hours": "6:30 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "11th Street, Chesterton",
+    "city": "Chesterton",
+    "location_path": "/locations/chesterton/",
+    "tour_path": "/book-a-tour/11th-street-in-chesterton/",
+    "market_path": "/daycare/chesterton/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/dZ2QCPC799EEv7lQoQqi?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/oJaHaadxGz2jvB4uRXWw",
+    "observed_phone_links": [
+      "(219) 929-5559"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 1828 South 11th Street, Chesterton, IN 46304"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/chesterton/",
+    "provisional_address": "1828 South 11th Street, Chesterton, IN 46304",
+    "provisional_phone": "(219) 929-5559",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "Miller Drive, Plymouth",
+    "city": "Plymouth",
+    "location_path": "/locations/plymouth/",
+    "tour_path": "/book-a-tour/miller-drive-in-plymouth/",
+    "market_path": "/daycare/plymouth/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/VdVKJMi2Yi5RRUym5MkE?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/psDIi26Smm17MBI445P1",
+    "observed_phone_links": [
+      "(574) 914-4334"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 2680 Miller Dr., Suite 110, Plymouth, IN 46563"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/plymouth/",
+    "provisional_address": "2680 Miller Dr., Suite 110, Plymouth, IN 46563",
+    "provisional_phone": "(574) 914-4334",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)"
+  },
+  {
+    "name": "E 200 North, Warsaw",
+    "city": "Warsaw",
+    "location_path": "/locations/warsaw/",
+    "tour_path": "/book-a-tour/e-200-north-in-warsaw/",
+    "market_path": "/daycare/warsaw/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/mYekKqVeUbXzkhJEwNEu?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/83yTkQI6gD8I8fvGdnUJ",
+    "observed_phone_links": [
+      "(574) 306-5191"
+    ],
+    "observed_hours": [
+      "Hours: 5:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center,  298 E. 200 North, Warsaw, IN 46582"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/warsaw/",
+    "provisional_address": "298 E. 200 North, Warsaw, IN 46582",
+    "provisional_phone": "(574) 306-5191",
+    "provisional_hours": "5:30 am - 6:00 pm (Mon-Fri)"
+  }
+]

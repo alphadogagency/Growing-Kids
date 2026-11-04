@@ -1,0 +1,19 @@
+---
+import {nav, previewHref, homeHref} from '../data/navigation';
+interface Props { preview?: boolean; tourPath?: string; centerPickerPath?: string; home?: boolean; }
+const {preview = false, home = false, tourPath = '/book-a-tour/', centerPickerPath = '/locations/#find-your-center'} = Astro.props;
+const tour = home ? 'https://growingkids.com/book-a-tour/' : preview ? '#tour-preview' : tourPath;
+const picker = (preview || home) ? '#find-your-center' : centerPickerPath;
+---
+<a class="skip-link" href="#main">Skip To Content</a>
+<header class="site-header">
+  <div class="header-inner wrap">
+    <a class="brand" href={preview ? '/' : '/'} aria-label="Growing Kids home"><img src="/standard-logo.png" width="240" height="143" alt="Growing Kids Learning Centers, Protect, Educate, Inspire" /></a>
+    <div class="header-content">
+      <div class="header-actions"><a class="phone" href="tel:5749707500">(574) 970-7500</a><a class="button secondary" href={picker}>Find Your Center</a><a class="button primary" href={tour}>Schedule a Tour</a></div>
+      <nav class="desktop-nav" aria-label="Main navigation">{nav.map(([name,path]) => <a href={home ? homeHref(path) : preview ? previewHref(path) : path}>{name}</a>)}</nav>
+      <details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{nav.map(([name,path]) => <a href={home ? homeHref(path) : preview ? previewHref(path) : path}>{name}</a>)}</nav></details>
+    </div>
+  </div>
+</header>
+<nav class="mobile-actions" aria-label="Quick actions"><a class="button primary" href={tour}>Schedule a Tour</a><a class="button secondary" href={picker}>Find Your Center</a></nav>

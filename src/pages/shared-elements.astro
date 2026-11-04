@@ -1,0 +1,18 @@
+---
+import Header from '../components/Header.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Footer from '../components/Footer.astro';
+import centers from '../data/centers.json';
+import '../styles/global.css';
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Growing Kids Shared Elements Preview</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/></head>
+<body><p class="preview-bar">Local shared-elements preview. Homepage content and provider integration are still in progress.</p><Header preview />
+<main id="main"><section class="fixture-intro wrap"><h1>Shared Elements Preview</h1><p>The approved Growing Kids direction, with the November brief’s navigation and three next steps. This page is for reviewing reusable components.</p></section>
+<CallToAction preview />
+<section class="picker-section wrap" id="find-your-center"><h2>Find Your Center</h2><p>Explore one of our ten centers across Northern Indiana.</p><div class="picker-list">{centers.map(c=><a href={`https://growingkids.com${c.location_path}`}><strong>{c.name}</strong><span>View Center</span></a>)}</div></section>
+<section class="review-panels wrap" aria-label="Preview status">
+<details id="tour-preview"><summary>Schedule a Tour Preview</summary><p>All ten existing center booking destinations are mapped. This fixture does not embed or submit a booking.</p><a href="https://growingkids.com/book-a-tour/">View The Existing Tour Hub</a></details>
+<details id="information-preview"><summary>Request Information Preview</summary><p>The existing Playground inquiry form has been recovered. Field mapping, contact preference and success confirmation need account verification before this new route is wired.</p></details>
+<details id="preregister-preview"><summary>Pre-Register Preview</summary><p>All ten existing enrollment destinations are mapped. The new route will use a center picker and the brief’s pre-registration language. Start-date confirmation and receipt remain unverified.</p></details>
+<details id="pending-pages"><summary>Pages For The Next Build Portion</summary><p>Curriculum and Our Team retain their planned routes in the shared configuration. Their page bodies have not been built in this shared-elements portion.</p></details>
+</section></main><Footer preview /></body></html>

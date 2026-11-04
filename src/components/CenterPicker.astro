@@ -1,0 +1,11 @@
+---
+import centers from '../data/centers.json';
+interface Props { id: string; intent?: 'center' | 'enrollment'; }
+const {id,intent='center'}=Astro.props;
+const cities=[...new Set(centers.map(c=>c.city))];
+---
+<form class="center-picker" data-center-picker action="https://growingkids.com/locations/" method="get">
+<label for={id}>{intent==='enrollment'?'Choose Your Center':'Find Your Center'}</label>
+<div class="picker-controls"><select id={id} name="center" required aria-describedby={`${id}-help`}><option value="">Select a center</option>{cities.map(city=><optgroup label={city}>{centers.filter(c=>c.city===city).map(c=><option value={intent==='enrollment'?c.enrollment_listing_url:`https://growingkids.com${c.location_path}`}>{c.name}</option>)}</optgroup>)}</select><button class="button picker-submit" type="submit">{intent==='enrollment'?'Continue':'View Center'}</button></div>
+<p id={`${id}-help`} class="picker-help">{intent==='enrollment'?'Continue to your center’s enrollment page on Playground.':'Ten centers across Northern Indiana.'}</p>
+</form>

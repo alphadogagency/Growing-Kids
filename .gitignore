@@ -1,0 +1,11 @@
+node_modules/
+.astro/
+dist/
+.DS_Store
+work/
+.env
+.env.*
+!.env.example
+
+# Local client source documents, correspondence and review evidence
+outputs/

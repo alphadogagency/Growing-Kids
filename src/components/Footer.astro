@@ -1,0 +1,18 @@
+---
+import centers from '../data/centers.json';
+import {programs,company,previewHref} from '../data/navigation';
+interface Props { preview?: boolean; }
+const {preview=false}=Astro.props;
+const cities=[...new Set(centers.map(c=>c.city))];
+---
+<footer class="site-footer"><div class="wrap">
+  {preview && <p class="draft-note">Local draft: center details below are provisional current-site values. Final citation/NAP confirmation is pending.</p>}
+  <div class="footer-columns">
+    <section class="footer-centers"><h2>Our Centers</h2><div class="center-list">{centers.map(c=><address><a href={preview?`https://growingkids.com${c.location_path}`:c.location_path}>{c.name}</a><span>{c.provisional_address}</span><a href={`tel:${c.provisional_phone.replace(/\D/g,'')}`}>{c.provisional_phone}</a><span>{c.provisional_hours}</span></address>)}</div></section>
+    <section><h2>Programs</h2><ul>{programs.map(([label,path])=><li><a href={preview?previewHref(path):path}>{label}</a></li>)}</ul></section>
+    <section><h2>Daycare By City</h2><ul>{cities.map(city=><li><a href={preview?`https://growingkids.com/daycare/${city.toLowerCase().replaceAll(' ','-')}/`:`/daycare/${city.toLowerCase().replaceAll(' ','-')}/`}>{city}</a></li>)}</ul></section>
+    <section><h2>Company</h2><ul>{company.map(([label,path])=><li><a href={preview?previewHref(path):path}>{label}</a></li>)}</ul></section>
+  </div>
+  <div class="footer-bottom"><p>Family owned and operated in Northern Indiana.</p><a href="tel:5749707500">(574) 970-7500</a></div>
+  {preview && <p class="draft-note">Founding-year statement remains a marked content slot until Bridget confirms it.</p>}
+</div></footer>
