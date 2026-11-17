@@ -26,3 +26,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 ## Content and behavior
 
 Use existing public tour hub and native inquiry form as honest preview handoffs. Pre-registration remains visibly pending because the checked listing uses a paid waitlist and has a conflicting address; offer the current inquiry form as the interim alternative. No new marketing pages or backend. All provider receipt, reminder and success-event tests remain unverified. Mark review/anniversary/exact-outline/NAP gaps visibly in local preview. Homepage approval remains pending.
+
+## November 17 refinement override
+
+Bridget November 13 feedback replaces the six Difference photos with a consistent meaningful animated geometric icon family and removes the duplicate center exterior. Hero, classroom photo and three video posters remain. Native area-first selection reveals schools inline, with city disclosures as the no-script fallback. Preserve existing copy, six-item order, brand and provider boundaries. See DESIGN.md and outputs/evidence/homepage-feedback-2026-11-17/. This is initial client feedback, not final approval.

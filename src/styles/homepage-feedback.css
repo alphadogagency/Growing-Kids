@@ -1,0 +1,40 @@
+/* November 13 client feedback: quieter imagery, one coherent icon vocabulary. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.area-picker{text-align:left;min-width:0}
+.area-picker [hidden]{display:none!important}
+.area-picker label{display:block;font:800 1rem/1.2 var(--head);margin-bottom:.55rem}
+.area-picker select{display:block;width:100%;min-height:48px;border:1px solid var(--taupe);border-radius:7px;padding:12px;color:var(--ink);background:var(--paper);font:400 .95rem var(--body)}
+.area-help{font-size:.78rem;line-height:1.4;margin:.5rem 0 0}
+.area-results{margin-top:1rem;border-top:1px solid rgba(255,255,255,.45);padding-top:.8rem}
+.area-result-heading{font:800 1rem var(--head);margin:0 0 .4rem}
+.area-result-heading span{font:400 .8rem var(--body)}
+.area-picker ul{list-style:none;margin:0;padding:0}
+.area-results a{display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:44px;padding:.6rem 0;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35);font-size:.95rem}
+.area-results a:hover span:first-child{text-decoration:underline}
+.area-results a:focus-visible{outline-color:white}
+.area-fallback summary{cursor:pointer;min-height:44px;padding:.65rem 0;font-weight:600}
+.area-fallback>summary>span{display:block;font-size:.8rem;font-weight:400}
+.area-fallback a{display:block;padding:.65rem .5rem;min-height:44px}
+.care-icon{display:block;width:76px;height:76px;flex:none;overflow:visible}
+.icon-line{stroke:var(--ink);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.icon-fill-sage{fill:var(--sage-soft)}
+.icon-fill-butter{fill:var(--butter)}
+.icon-fill-sky{fill:var(--sky)}
+.homepage .difference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 3.5rem}
+.homepage .difference-grid article{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:1.5rem;align-content:start;border-top:1px solid var(--line);padding:1.8rem 0;min-width:0}
+.difference-grid .care-icon{grid-row:1/3}
+.homepage .difference-grid h3{font-size:1.35rem;margin:0 0 .6rem;text-wrap:balance}
+.homepage .difference-grid p{font-size:1rem;line-height:1.6;margin:0;max-width:42ch}
+.homepage .difference .section-tail{margin-top:1rem}
+.care-heading{display:flex;align-items:flex-start;gap:1rem}
+.care-heading>.care-icon{width:48px;height:48px;margin-top:.1rem}
+.centers-layout .care-icon{margin-bottom:1.4rem}
+.homepage .centers-layout{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:4rem}
+[data-care-reveal]{opacity:1;transform:none;transition:opacity 700ms cubic-bezier(.22,1,.36,1),transform 700ms cubic-bezier(.22,1,.36,1)}
+[data-care-reveal].care-ready{opacity:0;transform:translateY(24px)}
+[data-care-reveal].care-instant{transition:none}
+.care-entering .icon-detail{animation:care-line 950ms cubic-bezier(.22,1,.36,1) both}
+@keyframes care-line{from{stroke-dasharray:1;stroke-dashoffset:1;opacity:.2}to{stroke-dasharray:1;stroke-dashoffset:0;opacity:1}}
+@media(max-width:1050px){.homepage .difference-grid{column-gap:2rem}.homepage .difference-grid article{grid-template-columns:62px minmax(0,1fr);column-gap:1rem}.difference-grid .care-icon{width:62px;height:62px}.homepage .difference-grid h3{font-size:1.2rem}.homepage .centers-layout{gap:2.5rem}}
+@media(max-width:700px){.area-help{font-size:.72rem}.area-picker select{min-height:46px;font-size:.9rem}.area-picker label{font-size:.9rem}.homepage .difference-grid{grid-template-columns:1fr}.homepage .difference-grid article{grid-template-columns:60px minmax(0,1fr);padding:1.4rem 0;column-gap:1rem}.difference-grid .care-icon{width:60px;height:60px}.homepage .difference-grid h3{font-size:1.2rem}.homepage .difference-grid p{font-size:.94rem}.care-heading{gap:.75rem}.care-heading>.care-icon{width:40px;height:40px}.homepage .centers-layout{grid-template-columns:1fr;gap:1.7rem}.centers-layout .care-icon{width:60px;height:60px;margin-bottom:1rem}[data-care-reveal].care-ready{transform:translateY(18px)}}
+@media(prefers-reduced-motion:reduce){[data-care-reveal],[data-care-reveal].care-ready{opacity:1!important;transform:none!important;transition:none!important}.care-entering .icon-detail{animation:none!important}}

@@ -1,0 +1,50 @@
+---
+import centers from '../data/centers.json';
+interface Props { id: string; }
+const { id } = Astro.props;
+const cities = [...new Set(centers.map(center => center.city))];
+---
+<div class="area-picker" data-area-picker>
+  <div data-area-controls hidden>
+    <label for={id}>Find Your Center</label>
+    <select id={id} aria-controls={`${id}-results`} aria-describedby={`${id}-help`}>
+      <option value="">Choose an area</option>
+      {cities.map(city => <option value={city}>{city}</option>)}
+    </select>
+    <p id={`${id}-help`} class="area-help">Choose an area to see its schools here.</p>
+    <p class="visually-hidden" data-area-status role="status" aria-live="polite" aria-atomic="true"></p>
+    <div id={`${id}-results`} class="area-results" data-area-results hidden>
+      {cities.map(city => <div data-city={city} hidden>
+        <p class="area-result-heading">{city} <span>· {centers.filter(c => c.city === city).length} {centers.filter(c => c.city === city).length === 1 ? 'school' : 'schools'}</span></p>
+        <ul>{centers.filter(c => c.city === city).map(center => <li><a href={`https://growingkids.com${center.location_path}`}><span>{center.name.replace(`, ${city}`, '')}</span><span aria-hidden="true">→</span></a></li>)}</ul>
+      </div>)}
+    </div>
+  </div>
+  <details class="area-fallback" data-area-fallback>
+    <summary>Find Your Center <span>Choose an area</span></summary>
+    <div>{cities.map(city => <details><summary>{city}</summary><ul>{centers.filter(c => c.city === city).map(center => <li><a href={`https://growingkids.com${center.location_path}`}>{center.name.replace(`, ${city}`, '')}</a></li>)}</ul></details>)}</div>
+  </details>
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-area-picker]').forEach(picker => {
+    const controls = picker.querySelector<HTMLElement>('[data-area-controls]');
+    const select = picker.querySelector<HTMLSelectElement>('select');
+    const results = picker.querySelector<HTMLElement>('[data-area-results]');
+    const fallback = picker.querySelector<HTMLElement>('[data-area-fallback]');
+    const status = picker.querySelector<HTMLElement>('[data-area-status]');
+    if (!controls || !select || !results || !fallback || !status) return;
+    const update = () => {
+      let count = 0;
+      results.querySelectorAll<HTMLElement>('[data-city]').forEach(group => {
+        group.hidden = group.dataset.city !== select.value;
+        if (!group.hidden) count = group.querySelectorAll('a').length;
+      });
+      results.hidden = count === 0;
+      status.textContent = count ? `${count} ${count === 1 ? 'school' : 'schools'} in ${select.value}. Choose a school below.` : '';
+    };
+    select.addEventListener('change', update);
+    update();
+    controls.hidden = false;
+    fallback.hidden = true;
+  });
+</script>

@@ -1,0 +1,13 @@
+---
+interface Props { kind: 'safety' | 'learning' | 'time' | 'play' | 'family' | 'teaching' | 'location'; }
+const { kind } = Astro.props;
+---
+<svg class={`care-icon care-icon--${kind}`} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  {kind === 'safety' && <><path class="icon-fill-sage" d="M40 9 64 19v19c0 17-12 27-24 33C28 65 16 55 16 38V19Z"/><path class="icon-line" d="M40 9 64 19v19c0 17-12 27-24 33C28 65 16 55 16 38V19Z"/><path class="icon-line icon-detail" pathLength="1" d="m28 39 9 9 17-20"/></>}
+  {kind === 'learning' && <><path class="icon-fill-butter" d="M40 24c-8-7-19-8-29-5v42c10-3 21-2 29 5 8-7 19-8 29-5V19c-10-3-21-2-29 5Z"/><path class="icon-line" d="M40 24c-8-7-19-8-29-5v42c10-3 21-2 29 5 8-7 19-8 29-5V19c-10-3-21-2-29 5Zm0 0v42"/><path class="icon-line icon-detail" pathLength="1" d="M20 32c4 0 7 1 11 3m18 0c4-2 7-3 11-3M20 43c4 0 7 1 11 3m18 0c4-2 7-3 11-3"/></>}
+  {kind === 'time' && <><circle class="icon-fill-sky" cx="40" cy="40" r="28"/><circle class="icon-line" cx="40" cy="40" r="28"/><path class="icon-line" d="M40 17v3m23 20h-3M40 63v-3M17 40h3"/><path class="icon-line icon-detail" pathLength="1" d="M40 26v16l12 7"/></>}
+  {kind === 'play' && <><path class="icon-fill-butter" d="M25 31 40 17l15 14v35H25Z"/><path class="icon-fill-sky" d="M8 39h17v27H8Zm47 0h17v27H55Z"/><path class="icon-line" d="M8 66V39h17m30 0h17v27M25 66V31l15-14 15 14v35M7 66h66M15 47v7m50-7v7M35 31h10v9H35Z"/><path class="icon-line icon-detail" pathLength="1" d="M35 66V49h10v17"/></>}
+  {kind === 'family' && <><path class="icon-fill-sage" d="M17 34 40 14l23 20v33H17Z"/><path class="icon-line" d="m10 40 30-26 30 26M17 34v33h46V34"/><path class="icon-line icon-detail" pathLength="1" d="M40 56 29 45c-7-8 5-16 11-7 6-9 18-1 11 7Z"/></>}
+  {kind === 'teaching' && <><rect class="icon-fill-butter" x="13" y="14" width="54" height="39" rx="4"/><rect class="icon-line" x="13" y="14" width="54" height="39" rx="4"/><path class="icon-line" d="M40 53v15m-14 0h28M23 42h15"/><path class="icon-line icon-detail" pathLength="1" d="m34 29 7 7 15-13"/></>}
+  {kind === 'location' && <><path class="icon-fill-sage" d="M40 72S16 49 16 31a24 24 0 0 1 48 0c0 18-24 41-24 41Z"/><path class="icon-line" d="M40 72S16 49 16 31a24 24 0 0 1 48 0c0 18-24 41-24 41Z"/><circle class="icon-line icon-detail" pathLength="1" cx="40" cy="31" r="9"/></>}
+</svg>
