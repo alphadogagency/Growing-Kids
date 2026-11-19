@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import programs from '../data/programs.json';
+
+---
+<SiteLayout title="A Place For Every Stage | Growing Kids" description="Explore Growing Kids infant care, toddler care, preschool, school age care and camps for children from six weeks through age 12." breadcrumbs={[{name:"A Place For Every Stage",path:"/programs/"}]}><section class="page-hero"><div class="wrap"><h1>A Place For Every Stage</h1><p class="intro">Growing Kids offers infant care, toddler and young preschool, preschool, school age care and camps. From six weeks through age 12, children have room to learn, play and build friendships.</p><div class="hero-actions"><a class="button primary" href="/programs/preschool/">Explore Preschool</a></div></div></section>
+<section class="section sage"><div class="wrap split"><div><h2>Kindergarten begins with curiosity.</h2><p>Preschool brings hands-on discovery, language and friendship into the same day. Explore how ELM and Conscious Discipline support children as they prepare for school.</p><a class="button primary" href="/programs/preschool/">Explore Preschool</a></div><img src="/images/early-writing.webp" alt="A preschool child practicing writing" width="700" height="600" loading="lazy" data-shoot="replace"/></div></section><section class="section"><div class="wrap"><h2>Find your child’s next step.</h2><ul class="program-list">{programs.map(p=><li><a href={`/programs/${p.slug}/`}><strong>{p.name}</strong><span>{p.age}</span></a></li>)}</ul><p><a href="/curriculum/">See how learning happens</a> · <a href="/tuition-support/">Explore tuition support</a> · <a href="/locations/">Find a center near you</a></p></div></section>
+</SiteLayout>

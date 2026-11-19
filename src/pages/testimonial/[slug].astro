@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';import reviews from '../../data/review-archive.json';
+export function getStaticPaths(){return reviews.map(review=>({params:{slug:review.slug},props:{review}}));}
+const {review:r}=Astro.props;
+const description=`${r.name}: ${r.quote.replace(/\s+/g,' ')}`;
+const excerpt=description.length>150?description.slice(0,147).replace(/\s+\S*$/,'')+'…':description;
+---
+<SiteLayout title={`${r.title.slice(0,43)} | Growing Kids`} description={excerpt} breadcrumbs={[{name:'Reviews',path:'/testimonials/'},{name:'Published story',path:`/testimonial/${r.slug}/`}]}><section class="page-hero"><div class="wrap reading"><h1>{r.title}</h1><p class="intro">A previously published Growing Kids story from {r.name}, retained from the existing website.</p></div></section><section class="section cream"><div class="wrap reading"><blockquote class="archive-quote">{r.quote.split('\n').map(p=><p>{p}</p>)}<cite>{r.name}</cite></blockquote><p class="review-note"><strong>Published story archive</strong>This account reflects the experience originally shared. Current roles, classrooms and availability may differ. Attribution, photos and reuse permissions remain part of final content review.</p><p><a href="/testimonials/">More parent stories</a> · <a href="/locations/">Explore our centers</a> · <a href="/programs/">Programs by age</a></p></div></section></SiteLayout>

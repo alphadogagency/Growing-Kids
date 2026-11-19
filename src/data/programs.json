@@ -1,0 +1,238 @@
+[
+  {
+    "slug": "preschool",
+    "name": "Preschool",
+    "age": "3\u20135 years",
+    "headline": "Big discoveries. Ready for kindergarten.",
+    "intro": "Growing Kids preschool builds academic, social and physical skills through hands-on learning. Children explore new ideas, practice everyday skills and make friends as they get ready for kindergarten.",
+    "image": "early-writing.webp",
+    "alt": "A child practicing writing at a classroom table",
+    "learn": [
+      "Stories, language and early writing",
+      "Counting, patterns and hands-on discovery",
+      "Taking turns, making friends and naming feelings",
+      "Movement, art and imaginative play"
+    ],
+    "day": [
+      [
+        "Arrive and reconnect",
+        "Time with teachers and familiar friends helps children settle into the day."
+      ],
+      [
+        "Explore and discover",
+        "Stories, math games, science and hands-on activities bring learning to life."
+      ],
+      [
+        "Move, rest and refuel",
+        "Classroom routines make room for meals, rest and indoor or outdoor play."
+      ],
+      [
+        "Create and share",
+        "Art, pretend play and time together give children ways to practice new skills."
+      ]
+    ],
+    "bring": "Ask your center for its classroom supply list, rest-time items and guidance on extra clothing. Share any care needs with your director before your child\u2019s first day.",
+    "quotes": [
+      {
+        "name": "Kelsey",
+        "quote": "My children have always called daycare \u201cschool\u201d and that\u2019s just what it is. The children have time to play of course, but everything they do is centered on learning.",
+        "source": "/testimonial/i-absolutely-love-this-daycare-as-do-my-children/",
+        "center": ""
+      },
+      {
+        "name": "Sarah",
+        "quote": "My three year old in the last month\u2019s vocabulary has exploded and I know much of that is thanks to your teachers.",
+        "source": "/testimonial/the-best-decision-i-made/",
+        "center": "E 200 North, Warsaw"
+      }
+    ]
+  },
+  {
+    "slug": "infants",
+    "name": "Infants",
+    "age": "6 weeks until walking",
+    "headline": "A gentle beginning, together.",
+    "intro": "Growing Kids infant care welcomes babies from six weeks until walking. Individual attention, familiar feeding and nap routines and daily communication help families stay connected as babies grow.",
+    "image": "centers/eastport-in-valparaiso-0.webp",
+    "alt": "A baby sleeping in a colorful infant room seat",
+    "learn": [
+      "Early communication and connection",
+      "Exploring through touch, sight and sound",
+      "Movement at your baby\u2019s pace"
+    ],
+    "day": [
+      [
+        "Your baby\u2019s rhythm",
+        "Feeding and sleep routines follow your baby\u2019s needs."
+      ],
+      [
+        "Time together",
+        "Teachers offer individual attention and comfort."
+      ],
+      [
+        "Explore and move",
+        "Age-appropriate play supports early discovery."
+      ],
+      [
+        "Stay connected",
+        "Share changes in routines and care needs with your child\u2019s teachers."
+      ]
+    ],
+    "bring": "Review the infant feeding plan, breast milk procedures and safe sleep information with your center. Your teacher will explain what to label and bring.",
+    "quotes": [
+      {
+        "name": "Kayla",
+        "quote": "Our infant room teachers have been so wonderful and take such great care of our daughter while we are at work.",
+        "source": "/testimonial/we-have-had-such-a-great-first-month/",
+        "center": "E 200 North, Warsaw"
+      },
+      {
+        "name": "Nicole",
+        "quote": "We are incredibly happy with Growing Kids. The Director is personable, friendly and always upbeat.",
+        "source": "/testimonial/growing-kids-is-accommodating-with-every-childs-needs/",
+        "center": ""
+      }
+    ]
+  },
+  {
+    "slug": "toddlers",
+    "name": "Toddlers and Young Preschool",
+    "age": "Walking to 3 years",
+    "headline": "Small steps. A bigger world.",
+    "intro": "Growing Kids toddler and young preschool care gives children from walking to age 3 room to move, explore and connect. Stories, art and hands-on play help children practice language, independence and friendships.",
+    "image": "painting.webp",
+    "alt": "A young child exploring paint during a classroom activity",
+    "learn": [
+      "First friendships and taking turns",
+      "Language through stories and conversation",
+      "New movement and self-help skills"
+    ],
+    "day": [
+      [
+        "Settle in",
+        "A familiar teacher and routine help with the transition from home."
+      ],
+      [
+        "Try something new",
+        "Arts, crafts and stories invite hands-on exploration."
+      ],
+      [
+        "Move and play",
+        "Indoor and outdoor play give growing bodies room to move."
+      ],
+      [
+        "Rest and reconnect",
+        "Meals, rest and familiar routines support the day."
+      ]
+    ],
+    "bring": "Ask your center about extra clothes, rest-time items and toileting supplies. Teachers can help you plan for your child\u2019s current stage.",
+    "quotes": [
+      {
+        "name": "Brittney",
+        "quote": "Teachers are very personable and develop great relationships with the kids. My son LOVED being in the toddler class he was excited for school and always got excited when I asked him if he wanted to go see his teachers.",
+        "source": "/testimonial/my-son-loved-being-in-the-toddler-class/",
+        "center": ""
+      },
+      {
+        "name": "Brooke",
+        "quote": "All of the teachers in the Toddler 2 room have been so amazing with Sam, there was no question that Mason wouldn\u2019t be safe and cared for as well.",
+        "source": "/testimonial/his-teachers-love-him-almost-as-much-as-you-do/",
+        "center": ""
+      }
+    ]
+  },
+  {
+    "slug": "school-age-care",
+    "name": "School Age Care",
+    "age": "5\u201312 years",
+    "headline": "Before school. After school. Still growing.",
+    "intro": "Growing Kids school age care supports children ages 5 to 12 before and after school, with care during school breaks and closures. Children have time for homework, indoor and outdoor play and friendships.",
+    "image": "outdoor-play.webp",
+    "alt": "Children playing together outdoors at Growing Kids",
+    "learn": [
+      "Friendships and group activities",
+      "Independent play and creative choices",
+      "Homework habits with teacher guidance"
+    ],
+    "day": [
+      [
+        "Before the bell",
+        "A familiar place to start the school day."
+      ],
+      [
+        "Back with friends",
+        "Group activities and free play make room to reconnect."
+      ],
+      [
+        "Homework time",
+        "Teachers provide guidance during time set aside for homework."
+      ],
+      [
+        "School breaks",
+        "Ask your center about full-day care, school transportation and upcoming closures."
+      ]
+    ],
+    "bring": "Check transportation arrangements and permission forms with your center. Bring schoolwork when needed and ask about supplies for full-day care.",
+    "quotes": [
+      {
+        "name": "Marissa",
+        "quote": "My kids have attended daycare, after school care and summer camp here. We are definitely happy with the services and curriculum.",
+        "source": "/testimonial/the-kids-and-i-love-all-of-the-activities-and-events/",
+        "center": "11th Street, Chesterton"
+      },
+      {
+        "name": "Jeni",
+        "quote": "We still use GK for summer camp, winter camp, spring camp, and the occasional day off school. Our family loves the teachers and staff at GK.",
+        "source": "/testimonial/our-family-loves-the-teachers-and-staff-at-gk/",
+        "center": "State Road 23, South Bend"
+      }
+    ]
+  },
+  {
+    "slug": "camps",
+    "name": "Camps",
+    "age": "5\u201312 years",
+    "headline": "School\u2019s out. Curiosity stays.",
+    "intro": "Growing Kids camps give children ages 5 to 12 hands-on activities, friendships and opportunities to explore during summer and school breaks. Ask your center for its current camp schedule and planned trips.",
+    "image": "outdoor-play.webp",
+    "alt": "Children enjoying an outdoor play area",
+    "learn": [
+      "Arts, crafts and science activities",
+      "Making friends through shared experiences",
+      "Exploring new places on planned trips"
+    ],
+    "day": [
+      [
+        "Gather with friends",
+        "Children join familiar faces and meet new friends."
+      ],
+      [
+        "Make and explore",
+        "Hands-on projects bring art and science into the day."
+      ],
+      [
+        "Get outside",
+        "Outdoor play gives children time to move and explore."
+      ],
+      [
+        "Plan an adventure",
+        "Field trips vary by center and season. Ask about the current schedule."
+      ]
+    ],
+    "bring": "Your center will provide the current camp packing list and field-trip permissions. Confirm clothing, meals and any trip-specific items before camp begins.",
+    "quotes": [
+      {
+        "name": "Cara",
+        "quote": "We were very happy with the Summer Camp that our son participated in. They went on field trips often and each provided a different and exciting learning experience.",
+        "source": "/testimonial/we-were-very-happy-with-the-summer-camp/",
+        "center": ""
+      },
+      {
+        "name": "Brooke",
+        "quote": "He is having a great time at camp and we appreciate the combination of learning and fun.",
+        "source": "/testimonial/his-teachers-love-him-almost-as-much-as-you-do/",
+        "center": ""
+      }
+    ]
+  }
+]

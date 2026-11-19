@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+# Staging review. Replace with the approved production policy at launch.
+Sitemap: https://growingkids.com/sitemap.xml

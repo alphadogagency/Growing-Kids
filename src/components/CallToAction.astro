@@ -10,5 +10,5 @@ const actions=[
 // Fourth Book a Call action is reserved and intentionally not rendered.
 ---
 <section class:list={['cta-section',{'cta-compact':compact}]} aria-labelledby={id}><div class="wrap">
-<h2 id={id}>What works for you?</h2><div class="cta-options">{actions.map(a=><div class="cta-option"><a class:list={['button',a.primary?'primary':'secondary']} href={home?a.home:preview?a.preview:a.path}>{a.label}</a><p>{a.description}</p></div>)}</div>
+<h2 id={id}>What works for you?</h2><div class="cta-options">{actions.map(a=><div class="cta-option"><a class:list={['button',a.primary?'primary':'secondary']} href={preview?a.preview:a.path}>{a.label}</a><p>{a.description}</p></div>)}</div>
 </div></section>

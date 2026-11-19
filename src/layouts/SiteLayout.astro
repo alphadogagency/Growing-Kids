@@ -1,0 +1,13 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CallToAction from '../components/CallToAction.astro';
+import '../styles/global.css';
+import '../styles/homepage-feedback.css';
+import '../styles/site.css';
+const {title,description,breadcrumbs=[],schema=[],tourPath='/book-a-tour/',center='',cta=true}=Astro.props;
+const canonical=new URL(Astro.url.pathname,'https://growingkids.com').href;
+const graph=[{'@type':'Organization','@id':'https://growingkids.com/#organization',name:'Growing Kids Learning Centers',url:'https://growingkids.com/',logo:'https://growingkids.com/standard-logo.png',telephone:'+1-574-970-7500'}, {'@type':'BreadcrumbList',itemListElement:[{name:'Home',path:'/'},...breadcrumbs].map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name,item:new URL(b.path,'https://growingkids.com').href}))},...schema];
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>{title}</title><meta name="description" content={description}/><meta name="robots" content="noindex,follow"/><link rel="canonical" href={canonical}/><link rel="icon" type="image/png" href="/favicon.png"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/><meta property="og:type" content="website"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:image" content="https://growing-kids.pages.dev/images/playground.webp"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/><script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@graph':graph}).replaceAll('<','\u003c')}/></head>
+<body data-center={center}><Header tourPath={tourPath}/><main id="main"><nav class="breadcrumbs wrap" aria-label="Breadcrumb"><a href="/">Home</a>{breadcrumbs.map((b,i)=><><span aria-hidden="true">/</span>{i===breadcrumbs.length-1?<span aria-current="page">{b.name}</span>:<a href={b.path}>{b.name}</a>}</>)}</nav><slot/>{cta&&<CallToAction centerTourPath={tourPath}/>}</main><Footer/><div class="build-note wrap"><p>Staging review · Family owned in Northern Indiana for 30 years. Content notes remain visible where final details are pending.</p></div><script>import '../scripts/site'; import '../scripts/homepage-motion';</script></body></html>

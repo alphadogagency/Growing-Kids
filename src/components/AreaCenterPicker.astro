@@ -16,13 +16,13 @@ const cities = [...new Set(centers.map(center => center.city))];
     <div id={`${id}-results`} class="area-results" data-area-results hidden>
       {cities.map(city => <div data-city={city} hidden>
         <p class="area-result-heading">{city} <span>· {centers.filter(c => c.city === city).length} {centers.filter(c => c.city === city).length === 1 ? 'school' : 'schools'}</span></p>
-        <ul>{centers.filter(c => c.city === city).map(center => <li><a href={`https://growingkids.com${center.location_path}`}><span>{center.name.replace(`, ${city}`, '')}</span><span aria-hidden="true">→</span></a></li>)}</ul>
+        <ul>{centers.filter(c => c.city === city).map(center => <li><a href={center.location_path}><span>{center.name.replace(`, ${city}`, '')}</span><span aria-hidden="true">→</span></a></li>)}</ul>
       </div>)}
     </div>
   </div>
   <details class="area-fallback" data-area-fallback>
     <summary>Find Your Center <span>Choose an area</span></summary>
-    <div>{cities.map(city => <details><summary>{city}</summary><ul>{centers.filter(c => c.city === city).map(center => <li><a href={`https://growingkids.com${center.location_path}`}>{center.name.replace(`, ${city}`, '')}</a></li>)}</ul></details>)}</div>
+    <div>{cities.map(city => <details><summary>{city}</summary><ul>{centers.filter(c => c.city === city).map(center => <li><a href={center.location_path}>{center.name.replace(`, ${city}`, '')}</a></li>)}</ul></details>)}</div>
   </details>
 </div>
 <script>

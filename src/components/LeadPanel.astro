@@ -1,0 +1,5 @@
+---
+const {center='',program=''}=Astro.props;
+const url='https://app.tryplayground.com/form/MpmqWSuS7XbbNhll8U9o/HJnwK3ewsarKLlkjCzkX';
+---
+<aside class="lead-panel"><h3>Ask about {program||center||'your child’s care'}</h3><p>Tell our team about your family through the secure Growing Kids inquiry form. {center&&`Choose ${center} in the form’s location field.`}</p><details data-provider={url} data-title="Growing Kids secure inquiry form"><summary>Open the inquiry form</summary><p><a href={url} data-event="cta_info_click">Open the secure form in a full page</a> to continue. Embedded forms require a secure HTTPS preview.</p><noscript><p>Use the secure form link above to send your inquiry.</p></noscript></details><p class="review-note"><strong>Review note</strong>The existing provider form is available. The shorter form with age group and Call, Text or Email preference needs provider configuration.</p></aside>

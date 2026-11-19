@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Ireland Road, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/ireland-road/",
+    "tour_path": "/book-a-tour/ireland-road-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/fBsUooLzcd9wUXDDMlZL?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/ZqgLyGwEoAVq4lUC9Str",
+    "observed_phone_links": [
+      "(574) 299-4979"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 17850 Ireland Rd South Bend, IN 46614"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/ireland-road/",
+    "provisional_address": "17850 Ireland Rd South Bend, IN 46614",
+    "provisional_phone": "(574) 299-4979",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)",
+    "slug": "ireland-road",
+    "street": "Ireland Road",
+    "positionHeading": "Just east of Ironwood Drive",
+    "position": "Our Ireland Road school sits on the southeast side of South Bend, with access to the Ireland Road shopping corridor and major roads. The rebuilt building brings spacious classrooms, an open lobby and an easy place to park for pick-up and drop-off.",
+    "featureHeading": "A garden, climbing structures and room to ride",
+    "feature": "Children can explore the garden, ride tricycles and climb outdoors. The playground also includes a basketball court, giving children different ways to move and play.",
+    "hero": "/images/centers/ireland-road-exterior.webp",
+    "photos": [
+      "/images/centers/ireland-road-0.webp",
+      "/images/centers/ireland-road-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Ireland Road building and entrance",
+    "photoAlts": [
+      "A child smiling beside a playground slide",
+      "Colorful child-size storefronts in Main Street"
+    ]
+  },
+  {
+    "name": "State Road 23, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/state-road-23/",
+    "tour_path": "/book-a-tour/state-road-23-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/2YuNAqckRJMDxIRjaqbc?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/mhYMhGOTJA0mLjGLdiSW",
+    "observed_phone_links": [
+      "(574) 273-9048"
+    ],
+    "observed_hours": [
+      "Hours: 6:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 17475 State Road 23 South Bend, IN 46635"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/state-road-23/",
+    "provisional_address": "17475 State Road 23 South Bend, IN 46635",
+    "provisional_phone": "(574) 273-9048",
+    "provisional_hours": "6:30 am - 6:00 pm (Mon-Fri)",
+    "slug": "state-road-23",
+    "street": "State Road 23",
+    "positionHeading": "A quieter setting off State Road 23",
+    "position": "Set back from State Road 23, this center offers onsite parking and a tree-lined playground. Access to I-90 and nearby University Park Mall makes it a practical stop for families on the north side of South Bend.",
+    "featureHeading": "A playground surrounded by trees",
+    "feature": "A large outdoor play space gives children room for active play with nature nearby. Inside, parents can use observation windows to see classroom life.",
+    "hero": "/images/centers/state-road-23-exterior.webp",
+    "photos": [
+      "/images/centers/state-road-23-1.webp",
+      "/images/centers/state-road-23-2.webp"
+    ],
+    "heroAlt": "The Growing Kids State Road 23 building and entrance",
+    "photoAlts": [
+      "The State Road 23 school and its parking lot",
+      "Colorful play storefronts inside Main Street"
+    ]
+  },
+  {
+    "name": "Bendix Drive, South Bend",
+    "city": "South Bend",
+    "location_path": "/locations/north-bendix-dr/",
+    "tour_path": "/book-a-tour/bendix-drive-in-south-bend/",
+    "market_path": "/daycare/south-bend/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/Q6eA4pEP64Bqy3CaXHuz?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/HjCO3zOFRZi9aUNB836d",
+    "observed_phone_links": [
+      "(574) 288-3992"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 2601 N. Bendix Drive, South Bend, IN 46628"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/north-bendix-dr/",
+    "provisional_address": "2601 N. Bendix Drive, South Bend, IN 46628",
+    "provisional_phone": "(574) 288-3992",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)",
+    "slug": "north-bendix-dr",
+    "street": "Bendix Drive",
+    "positionHeading": "North of Lathrop Street on Bendix Drive",
+    "position": "The Bendix Drive center serves the northwest side of South Bend. Onsite parking helps with drop-off and pick-up, and nearby stores make it easier to combine the school run with everyday errands.",
+    "featureHeading": "Room to move throughout the day",
+    "feature": "Outdoor playgrounds give children space to climb, explore and play together. Indoor classrooms offer a familiar place to return to their activities and friends.",
+    "hero": "/images/centers/north-bendix-dr-exterior.webp",
+    "photos": [
+      "/images/centers/north-bendix-dr-1.webp",
+      "/images/centers/north-bendix-dr-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Bendix Drive building and entrance",
+    "photoAlts": [
+      "Child-size play storefronts in Main Street",
+      "The Bendix Drive building and parking lot"
+    ]
+  },
+  {
+    "name": "Bristol Street, Elkhart",
+    "city": "Elkhart",
+    "location_path": "/locations/elkhart/",
+    "tour_path": "/book-a-tour/bristol-street-in-elkhart/",
+    "market_path": "/daycare/elkhart/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/Jmb1ytaCGCCX3l0cyUas?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/Fm5poWpz2hyjQbV58I5f",
+    "observed_phone_links": [
+      "(574) 266-1800"
+    ],
+    "observed_hours": [
+      "Hours: 4:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 825 W Bristol Street, Elkhart, IN 46514"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/elkhart/",
+    "provisional_address": "825 W Bristol Street, Elkhart, IN 46514",
+    "provisional_phone": "(574) 266-1800",
+    "provisional_hours": "4:30 am - 6:00 pm (Mon-Fri)",
+    "slug": "elkhart",
+    "street": "Bristol Street",
+    "positionHeading": "At Bristol Street and Edwardsburg Avenue",
+    "position": "Our Elkhart center is on the corner of Bristol Street and Edwardsburg Avenue. This location puts care near everyday errands and commuting routes, with parent observation areas inside the school.",
+    "featureHeading": "A garden alongside outdoor play",
+    "feature": "Children have space for outdoor play and a garden to explore. Parent observation areas let families watch their children in the classroom without interrupting their activities.",
+    "hero": "/images/centers/elkhart-exterior.webp",
+    "photos": [
+      "/images/centers/elkhart-1.webp",
+      "/images/centers/elkhart-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Bristol Street building and entrance",
+    "photoAlts": [
+      "The Elkhart Growing Kids entrance",
+      "Two adults looking through a classroom observation window"
+    ]
+  },
+  {
+    "name": "Elkhart Road, Goshen",
+    "city": "Goshen",
+    "location_path": "/locations/goshen-center/",
+    "tour_path": "/book-a-tour/elkhart-road-in-goshen/",
+    "market_path": "/daycare/goshen/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/kM6pDghAZgZRq2hTVgeO?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/4i8hjsDRJUoBoKpJMWYh",
+    "observed_phone_links": [
+      "(574) 875-8005"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 3212 Elkhart Road, Goshen, IN 46526"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/goshen-center/",
+    "provisional_address": "3212 Elkhart Road, Goshen, IN 46526",
+    "provisional_phone": "(574) 875-8005",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)",
+    "slug": "goshen-center",
+    "street": "Elkhart Road",
+    "positionHeading": "Near County Road 17 and Peddlers Village Road",
+    "position": "Our Elkhart Road center serves Goshen families near County Road 17 and Peddlers Village Road. Onsite parking and nearby shops help parents fit drop-off and pick-up into the rest of the day.",
+    "featureHeading": "Play spaces made for each age",
+    "feature": "Age-appropriate playgrounds give younger and older children their own ways to explore. Daily activities balance classroom learning with time to move.",
+    "hero": "/images/centers/goshen-center-exterior.webp",
+    "photos": [
+      "/images/centers/goshen-center-1.webp",
+      "/images/centers/goshen-center-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Elkhart Road building and entrance",
+    "photoAlts": [
+      "A teacher and children working at a classroom table",
+      "Play structures in the Goshen outdoor play area"
+    ]
+  },
+  {
+    "name": "Campbell Street, Valparaiso",
+    "city": "Valparaiso",
+    "location_path": "/locations/valparaiso/",
+    "tour_path": "/book-a-tour/campbell-street-in-valparaiso/",
+    "market_path": "/daycare/valparaiso/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/1BLFLkvYvsYgKCYDens1?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/NsfVztIObbcuOaQIDFvp",
+    "observed_phone_links": [
+      "(219) 462-7777"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 3400 Campbell Street, Valparaiso, IN 46383"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/valparaiso/",
+    "provisional_address": "3400 Campbell Street, Valparaiso, IN 46383",
+    "provisional_phone": "(219) 462-7777",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)",
+    "slug": "valparaiso",
+    "street": "Campbell Street",
+    "positionHeading": "At Campbell Street and Bullseye Lake Road",
+    "position": "Our Campbell Street center sits at the corner of North Campbell Street and Bullseye Lake Road in Valparaiso. Observation windows offer a view into classroom life, with a nature-rich playground outside.",
+    "featureHeading": "Six play structures and a garden",
+    "feature": "The outdoor space includes six play structures and a garden. Children can climb, explore and discover things growing around them.",
+    "hero": "/images/centers/valparaiso-exterior.webp",
+    "photos": [
+      "/images/centers/valparaiso-1.webp",
+      "/images/centers/valparaiso-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Campbell Street building and entrance",
+    "photoAlts": [
+      "The Campbell Street Growing Kids entrance",
+      "Colorful structures in an outdoor play area"
+    ]
+  },
+  {
+    "name": "Eastport Centre, Valparaiso",
+    "city": "Valparaiso",
+    "location_path": "/locations/eastport-in-valparaiso/",
+    "tour_path": "/book-a-tour/eastport-centre-in-valparaiso/",
+    "market_path": "/daycare/valparaiso/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/nBcOOtybcxwygfXLwiSR?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/RmLN1xfTBQEL20tQm9GX",
+    "observed_phone_links": [
+      "(219) 477-5858"
+    ],
+    "observed_hours": [
+      "Hours: 6:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Little U Academy, 751 Eastport Center Dr, Valparaiso, IN 46383"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/eastport-in-valparaiso/",
+    "provisional_address": "751 Eastport Center Dr, Valparaiso, IN 46383",
+    "provisional_phone": "(219) 477-5858",
+    "provisional_hours": "6:30 am - 6:00 pm (Mon-Fri)",
+    "slug": "eastport-in-valparaiso",
+    "street": "Eastport Centre",
+    "positionHeading": "Near State Road 49 and US Highway 2",
+    "position": "Eastport Centre, formerly Little U Academy, is part of the Growing Kids family. Find this Valparaiso school near State Road 49 and US Highway 2, with onsite parking and everyday essentials nearby.",
+    "featureHeading": "Outdoor playgrounds and an indoor playland",
+    "feature": "Spacious classrooms include dedicated learning centers. Age-appropriate outdoor playgrounds and an indoor playland give children room to develop movement skills.",
+    "hero": "/images/centers/eastport-in-valparaiso-exterior.webp",
+    "photos": [
+      "/images/centers/eastport-in-valparaiso-1.webp",
+      "/images/centers/eastport-in-valparaiso-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Eastport Centre building and entrance",
+    "photoAlts": [
+      "The Eastport Centre building and parking lot",
+      "Children building with colorful blocks"
+    ]
+  },
+  {
+    "name": "11th Street, Chesterton",
+    "city": "Chesterton",
+    "location_path": "/locations/chesterton/",
+    "tour_path": "/book-a-tour/11th-street-in-chesterton/",
+    "market_path": "/daycare/chesterton/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/dZ2QCPC799EEv7lQoQqi?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/oJaHaadxGz2jvB4uRXWw",
+    "observed_phone_links": [
+      "(219) 929-5559"
+    ],
+    "observed_hours": [
+      "Hours: 5:45 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 1828 South 11th Street, Chesterton, IN 46304"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/chesterton/",
+    "provisional_address": "1828 South 11th Street, Chesterton, IN 46304",
+    "provisional_phone": "(219) 929-5559",
+    "provisional_hours": "5:45 am - 6:00 pm (Mon-Fri)",
+    "slug": "chesterton",
+    "street": "11th Street",
+    "positionHeading": "At West 1100 North and South 11th Street",
+    "position": "The Chesterton center sits at the intersection of West 1100 North and South 11th Street. A parent waiting area offers a place to pause during pick-up or drop-off.",
+    "featureHeading": "A spacious place to play",
+    "feature": "The outdoor playground gives children space for active play. Inside, secure entry and classroom routines support a familiar day with teachers and friends.",
+    "hero": "/images/centers/chesterton-exterior.webp",
+    "photos": [
+      "/images/centers/chesterton-1.webp",
+      "/images/centers/chesterton-2.webp"
+    ],
+    "heroAlt": "The Growing Kids 11th Street building and entrance",
+    "photoAlts": [
+      "Two adults looking through a classroom observation window",
+      "Children enjoying an outdoor gathering"
+    ]
+  },
+  {
+    "name": "Miller Drive, Plymouth",
+    "city": "Plymouth",
+    "location_path": "/locations/plymouth/",
+    "tour_path": "/book-a-tour/miller-drive-in-plymouth/",
+    "market_path": "/daycare/plymouth/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/VdVKJMi2Yi5RRUym5MkE?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/psDIi26Smm17MBI445P1",
+    "observed_phone_links": [
+      "(574) 914-4334"
+    ],
+    "observed_hours": [
+      "Hours: 6:00 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center, 2680 Miller Dr., Suite 110, Plymouth, IN 46563"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/plymouth/",
+    "provisional_address": "2680 Miller Dr., Suite 110, Plymouth, IN 46563",
+    "provisional_phone": "(574) 914-4334",
+    "provisional_hours": "6:00 am - 6:00 pm (Mon-Fri)",
+    "slug": "plymouth",
+    "street": "Miller Drive",
+    "positionHeading": "Off Highway 30, next to LifePlex",
+    "position": "Our Miller Drive center is next to LifePlex in Plymouth, just off Highway 30. Walmart, Lowes and other everyday stops are nearby, with onsite parking for the school run.",
+    "featureHeading": "Fresh air and time with friends",
+    "feature": "Children play outside when weather allows. Indoors, classroom activities offer time to learn, make things and connect with friends.",
+    "hero": "/images/centers/plymouth-exterior.webp",
+    "photos": [
+      "/images/centers/plymouth-1.webp",
+      "/images/centers/plymouth-2.webp"
+    ],
+    "heroAlt": "The Growing Kids Miller Drive building and entrance",
+    "photoAlts": [
+      "The Plymouth Growing Kids entrance",
+      "Children painting at an outdoor activity area"
+    ]
+  },
+  {
+    "name": "E 200 North, Warsaw",
+    "city": "Warsaw",
+    "location_path": "/locations/warsaw/",
+    "tour_path": "/book-a-tour/e-200-north-in-warsaw/",
+    "market_path": "/daycare/warsaw/",
+    "location_http_status": 200,
+    "tour_http_status": 200,
+    "tour_embed_url": "https://app.tryplayground.com/MpmqWSuS7XbbNhll8U9o/book/mYekKqVeUbXzkhJEwNEu?embed=true",
+    "enrollment_listing_url": "https://app.tryplayground.com/listings/83yTkQI6gD8I8fvGdnUJ",
+    "observed_phone_links": [
+      "(574) 306-5191"
+    ],
+    "observed_hours": [
+      "Hours: 5:30 am - 6:00 pm (Mon-Fri)"
+    ],
+    "observed_map_queries": [
+      "Growing Kids Childcare Center,  298 E. 200 North, Warsaw, IN 46582"
+    ],
+    "nap_status": "provisional; final citation sheet missing",
+    "provider_render_status": "HTTP 200 app shell only; browser rendering and CRM receipt unverified",
+    "source_url": "https://growingkids.com/locations/warsaw/",
+    "provisional_address": "298 E. 200 North, Warsaw, IN 46582",
+    "provisional_phone": "(574) 306-5191",
+    "provisional_hours": "5:30 am - 6:00 pm (Mon-Fri)",
+    "slug": "warsaw",
+    "street": "E 200 North",
+    "positionHeading": "On East 200 North, east of Biomet Drive",
+    "position": "Our Warsaw center is on East 200 North, just east of Biomet Drive. A comfortable parent waiting area and observation windows help families feel connected to their child\u2019s day.",
+    "featureHeading": "Watch learning happen",
+    "feature": "Parents can watch classroom life through observation windows. Outdoors, playgrounds offer children room to play, laugh and grow together.",
+    "hero": "/images/centers/warsaw-exterior.webp",
+    "photos": [
+      "/images/centers/warsaw-1.webp",
+      "/images/centers/warsaw-2.webp"
+    ],
+    "heroAlt": "The Growing Kids E 200 North building and entrance",
+    "photoAlts": [
+      "The Warsaw Growing Kids building",
+      "Outdoor play structures at the Warsaw center"
+    ]
+  }
+]

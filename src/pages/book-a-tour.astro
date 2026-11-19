@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import centers from '../data/centers.json';
+
+---
+<SiteLayout title="Come See Growing Kids | Growing Kids" description="Choose a center for a 30-minute tour. Bring your child, see the classrooms and Main Street and meet the director. A visit gives your family a chance t" breadcrumbs={[{name:"Come See Growing Kids",path:"/book-a-tour/"}]}><section class="page-hero"><div class="wrap"><h1>Come See Growing Kids</h1><p class="intro">Choose a center for a 30-minute tour. Bring your child, see the classrooms and Main Street and meet the director. A visit gives your family a chance to ask questions and see everyday learning in action.</p><div class="hero-actions"><a class="button primary" href="#find-your-center">Choose Your Center</a></div></div></section>
+<section class="section cream" id="find-your-center"><div class="wrap"><h2>Which school would you like to visit?</h2><div class="center-directory">{centers.map(c=><article class="directory-entry"><h3>{c.name}</h3><p>{c.provisional_address}</p><a class="button primary" href={c.tour_path} data-center={c.name}>Schedule a Tour</a></article>)}</div></div></section><section class="section"><div class="wrap split"><div><h2>You can stop by, too.</h2><p>You’re welcome to visit during the day. Staff may be busy with the children, so scheduling a tour helps us make time for your questions.</p><a href="/locations/">Check your center’s hours</a></div><div><h2>Bring your questions.</h2><p>Ask about classroom routines, teachers, openings and <a href="/tuition-support/">tuition support</a>. You can also <a href="/request-information/">request information</a> before visiting.</p></div></div></section>
+</SiteLayout>

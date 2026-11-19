@@ -1,0 +1,6 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';import markets from '../../data/markets.json';import '../../styles/markets.css';
+export function getStaticPaths(){return markets.map(market=>({params:{slug:market.slug},props:{market}}));}
+const {market:m}=Astro.props;const schema=[{'@type':'FAQPage',mainEntity:m.faq.map(f=>({'@type':'Question',name:f.question,acceptedAnswer:{'@type':'Answer',text:f.answer}}))}];
+---
+<SiteLayout title={m.title} description={m.description} breadcrumbs={[{name:'Locations',path:'/locations/'},{name:m.city,path:`/daycare/${m.slug}/`}]} schema={schema}><Fragment set:html={m.html}/><div class="wrap"><p class="review-note"><strong>Market details under review</strong>This page preserves the current city page with the ELM curriculum correction. Final citation details, closure days, classroom ages and infant-room hours need confirmation before launch. Current rates and credits come from your center.</p></div></SiteLayout>
